@@ -44,3 +44,22 @@ if __name__ == '__main__':
 
 #### url反解析
 - url_for
+
+
+### 常用的SQLAlchemy字段类型
+
+| 类型名 |python中类型 |  说明|
+| :---: | :---: | :---: |
+|Integer |int| 普通整数，一般是32位
+|SmallInteger  |  int| 取值范围小的整数，一般是16位
+|BigInteger  |int或long    |不限制精度的整数
+|Float |  float |  浮点数
+|Numeric |decimal.Decimal |普通整数，一般是32位
+|String  |str| 变长字符串
+|Text  |  str |变长字符串，对较长或不限长度的字符串做了优化
+|Unicode |unicode |变长Unicode字符串
+|UnicodeText |unicode |变长Unicode字符串，对较长或不限长度的字符串做了优化
+|Boolean |bool  |  布尔值
+|Date  |  datetime.date |  时间
+|Time  |  datetime.datetime  | 日期和时间
+|LargeBinary |str |二进制文件
